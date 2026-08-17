@@ -73,6 +73,7 @@ const config = {
               },
               { to: '/resume', label: 'Resume', position: 'left' },
               { to: '/contact_me', label: 'Contact Me', position: 'left' },
+              { to: '/about_me', label: 'About Me', position: 'left' },
               {
                   href: 'https://github.com/JaceDaDorito',
                   label: 'My GitHub',
