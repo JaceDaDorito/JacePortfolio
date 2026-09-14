@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Jason Torres\'s Portfolio',
   tagline: 'Seasoned Level Designer & VFX artist',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon2.png',
   url: 'https://jaceportfolio-site.com',
   baseUrl: '/',
   // GitHub pages deployment config.
@@ -62,7 +62,7 @@ const config = {
           title: 'Jason Torres\'s Portfolio',
           logo: {
               alt: 'JacePortfolio Logo',
-              src: 'img/logo.svg',
+              src: 'img/favicon2.png',
               href: '/',
           },
           items: [{
