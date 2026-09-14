@@ -16,7 +16,7 @@ Alloyed Collective is Risk of Rain 2's third expansion coming off the heels of S
 
 ## Responsibilities
 - Design and implement various gameplay elements into new maps.
-- Implement elements of DLC3 progression.
+- Implement elements of Alloyed Collective's progression path.
 - Direct and implement various visual sequences (expansion endings, true final boss sequences, etc.)
 - Provide complete feedback design documents and graphics on each new map.
 - Integrate and balance new content pieces (enemies, interactables, and drones) on existing and new maps.
