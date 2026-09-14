@@ -8,10 +8,10 @@ sidebar_position: 0
 |----|----|----|----|
 | Dream Toaster LLC |Level Designer & Technical Artist| Unity 3D | 2024 - 2025 |
 
-## About Project
+## Project Summary
 Alloyed Collective is Risk of Rain 2's third expansion coming off the heels of Seekers of the Storm.
 
-## [Trailer Link](https://www.youtube.com/watch?v=Y284lohXoIg)
+### [Trailer Link](https://www.youtube.com/watch?v=Y284lohXoIg)
 [![Trailer Link](/img/Alloyed_Collective_Steam_Banner.jpg)](https://www.youtube.com/watch?v=Y284lohXoIg)
 
 ## Responsibilities

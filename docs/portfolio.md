@@ -16,3 +16,10 @@ If you have a project requiring level design or visual effects work, feel free t
 | Risk of Rain 2: Hallowed Concepts   | More Information Soon | Dream Toaster LLC | - |
 
  <img src="/img/Alloyed_Collective.jpg" alt="Alloyed Collective Banner" width="388"/>  <img src="/img/Hallowed_Concepts.jpg" alt="Hallowed Concepts Banner" width="388"/> 
+
+## Personal Work
+| Project     | Title |
+| ----------- | ----------- |
+| <a href="./personalwork/fblmod/">Fogbound Lagoon</a>   | Main Developer & Sole Level Designer |
+| Starstorm 2   | Gameplay Programmer, VFX Artist, & Level Consultant |
+
