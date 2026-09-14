@@ -14,6 +14,17 @@ Alloyed Collective is Risk of Rain 2's third expansion coming off the heels of S
 ## [Trailer Link](https://www.youtube.com/watch?v=Y284lohXoIg)
 [![Trailer Link](/img/Alloyed_Collective_Steam_Banner.jpg)](https://www.youtube.com/watch?v=Y284lohXoIg)
 
+## Responsibilities
+- Design and implement various gameplay elements into new maps.
+- Implement elements of DLC3 progression.
+- Direct and implement various visual sequences (expansion endings, true final boss sequences, etc.)
+- Provide complete feedback design documents and graphics on each new map.
+- Integrate and balance new content pieces (enemies, interactables, and drones) on existing and new maps.
+- Create unique enemy compositions on each of the new maps.
+- Flex on certain content pieces whenever needed.
+- Various miscellaneous visual effect (enemy vfx, portal vfx, etc.)
+- Assistance in bug fixing levels and visual sequences.
+
 ## My Role As A Developer
  Dream Toaster reached out to me in the winter of 2024 seeking my help with the upcoming Risk of Rain 2 DLC: Alloyed Collective. They had discovered me through my reputation in the modding community, where I created a popular custom level that not only fit the art style and gameplay of RoR2, but also introduced underwater level mechanics that dynamically shifted the gravity of every character on the map.
  
@@ -43,14 +54,3 @@ I also directed and implemented the introduction and ending sequences for the tr
 A lot of my other efforts were fairly miscellaneous: designing monster compositions, creating the new drone interactable pools, doing a lot of backend work for Computational Exchange, and polishing a few interactables like the Drone Combiner and Charity Node.
 
 Overall, I had a lot of fun with my time on Alloyed Collective. I couldn't have asked for a more passionate and welcoming team than Dream Toaster, and I am truly honored to have been able to work on one of my favorite games.
-
-## Responsibilities
-- Design and implement various gameplay elements into new maps (Conduit Canyon and Computational Exchange).
-- Implement elements of DLC3 progression.
-- Direct and implement various visual sequences (expansion endings, true final boss sequences, etc.)
-- Provide complete feedback design documents and graphics on each new map.
-- Integrate and balance new content pieces (enemies, interactables, and drones) on existing and new maps.
-- Create unique enemy compositions on each of the new maps.
-- Flex on certain content pieces whenever needed (Charity Node and Drone Combiner).
-- Various miscellaneous visual effect (enemy vfx, portal vfx, etc.)
-- Assistance in bug fixing levels and visual sequences.
