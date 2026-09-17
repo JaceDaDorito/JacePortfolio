@@ -17,8 +17,9 @@ const config = {
   baseUrl: '/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'JaceCascade', // Usually your GitHub org/user name.
+  organizationName: 'JaceDaDorito', // Usually your GitHub org/user name.
   projectName: 'JacePortfolio', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
