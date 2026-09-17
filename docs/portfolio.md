@@ -22,4 +22,7 @@ If you have a project requiring level design or visual effects work, feel free t
 | ----------- | ----------- |
 | <a href="./personalwork/fblmod/">Fogbound Lagoon</a>   | Main Developer & Sole Level Designer |
 | Starstorm 2   | Gameplay Programmer, VFX Artist, & Level Consultant |
+| <a href="./personalwork/modleveldocs/">Risk of Rain 2 Modded Level Documentation & Tooling</a> | Technical Writer, Programmer, & Main Tester |
+
+![Fogbound Lagoon Banner](/img/Fogbound_Lagoon_Banner3.png)
 

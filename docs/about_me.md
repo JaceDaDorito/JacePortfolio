@@ -3,7 +3,6 @@ sidebar_position: 5
 ---
 
 # About Me
-
 Hello and thank you for visiting my website!
 
 I'm Jason Torres, but a lot of people call me Jace. I am primarily a level designer and gameplay programmer, but I also love to draw!

@@ -4,6 +4,8 @@ sidebar_position: 0
 
 # Fogbound Lagoon Mod
 
+<img src="/img/Fogbound_Lagoon_Icon.png" alt="Fogbound Lagoon Icon" width="200"/>
+
 |Engine|Dates|
 |----|----|
 |Unity 3D | 2022 |
@@ -15,7 +17,7 @@ sidebar_position: 0
 ## Project Summary
 Fogbound Lagoon was my personal submission to the 2022 [Halloween Modjam](https://thunderstore.io/c/riskofrain2/?includedCategories=327) hosted in the Risk of Rain 2 Modding Discord server. The map was made within the month of October of that year and still recieves maintenence updates to this day.
 
-## Context & Design Process
+## Context & Design Goals
 Since this project is a lot more personal, I want to use this project as an opportunity to explain my design process when creating a level from scratch. I also see it as interesting insight, given I only had just under a month to produce and publish this map.
 
 By this point, I already had a lot of experience with prototyping Risk of Rain 2 levels. I was already familiar with how to import my levels into the game and I was honing my skills on white-boxxing. One of the work-in-progress levels I was creating that predated Fogbound Lagoon was called [Arid Expanse](https://www.youtube.com/watch?v=qIbm7Bc0fi4).
@@ -31,6 +33,8 @@ Since this was a jam, however, I skipped directly into prototyping the level and
 - The water should change the player's movement without feeling sluggish.
 - The water should effectively divide the map into two distinct parts.
 - The player should be able to tell when their character is underwater.
+
+## Prototyping and Building the Level
 
 I knew right away that my best option for movement was to dynamically shift the player's gravity underwater; this was what the original Risk of Rain did with its water mechanics and there were already levels in RoR2 that lowered the player's gravity. I also decided to extend this to the monsters as well. This already had me thinking about the enemy composition: I wanted Gups because they would jump higher underwater and I wanted Xi Construct since I felt the lowered gravity made them more approachable.
 
@@ -50,6 +54,8 @@ At this stage, I also started solidifying the level geometry of the level. Consi
 |![Model Screenshot 1](/img/fbl_model_screenshot.png)|![Model Screenshot 2](/img/fbl_model_screenshot2.png)|
 |-|-|
 
+## Finishing and Polishing the Level
+
 With the new art direction and level geometry, I once again started thinking about what monsters I wanted in the level. There is a decent amount of verticality with a lot of overhangs, tunnels, and arches. I immediately thought about the Alpha Constructs and how interesting they would be hanging off the sides of the geometry. I also thought about Magma Worm, a boss that can efficiently travel throughout the shelves of the level. I also thought it was fun to put the glowing lava boss in a water level, it reminded me of underwater volcanos. Enemy readibility was a problem I wanted to address, so I opted to include monsters that either had saturated colors or glowed such as the Imps.
 
 Unfortunately, I did not have the time to create many custom assets for the level, resorting to reusing prexisting assets from the game. I did feel that I had enough to work with to still make something unique. I leaned more into this bioluminescent look underwater, adding twinkling grass that broke up the ground. This was around the time the level really started coming together. 
@@ -68,6 +74,8 @@ I also needed some landmarks around the map to help distinguish player location 
 
 To enhance the underwater feel, I also muffled all game audio if your camera dipped below the water. I felt it added an extra queue to know when your character was in the water. 
 
+## Release and Patches
+
 ### [Teaser Link](https://www.youtube.com/watch?v=KVENv7-2HfA)
 [![Teaser Link](/img/Fogbound_Lagoon_Banner2.png)](https://www.youtube.com/watch?v=KVENv7-2HfA)
 
@@ -76,3 +84,5 @@ The level was close to finished by October 22nd 2022. All that was left was spri
 One core issue people had with the level was the fact that the underwater portions of the map made it hard to see chests and other interactables. Combined with the post-processing, the blue chests blended into the dark blue ground way too often. To address this, I textured the ground a bit better and also discolored it to be more green. The underwater floor now has a more mossy look to it. I also took this opportunity to update some of the kitbashed assets such as the crimson braziers and the bioluminescent grass. It also gave me the excuse to sprinkle in more lightsources around the map. The result was large improvements to readibility overall, whilst still keeping some amount of darkness in the environment.
 
 <img src="/img/texFBLScenePreview2.PNG" alt="FBL Preview" width="388"/>
+
+I still maintain this mod to this day, making sure it is playable for any release of Risk of Rain 2. I made changes such as adding support for newly added DLC enemies and for Alloyed Collective's access nodes. As of this writing, [Fogbound Lagoon is playable under the current 1.4.1 version of Risk of Rain 2](https://www.youtube.com/watch?v=R79hKENUrOY).
