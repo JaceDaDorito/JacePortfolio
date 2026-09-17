@@ -4,7 +4,7 @@ sidebar_position: 0
 
 # Fogbound Lagoon Mod
 
-<img src="/img/Fogbound_Lagoon_Icon.png" alt="Fogbound Lagoon Icon" width="200"/>
+![Fogbound Lagoon Icon](/img/Fogbound_Lagoon_Icon.png)
 
 |Engine|Dates|
 |----|----|
@@ -38,11 +38,13 @@ Since this was a jam, however, I skipped directly into prototyping the level and
 
 I knew right away that my best option for movement was to dynamically shift the player's gravity underwater; this was what the original Risk of Rain did with its water mechanics and there were already levels in RoR2 that lowered the player's gravity. I also decided to extend this to the monsters as well. This already had me thinking about the enemy composition: I wanted Gups because they would jump higher underwater and I wanted Xi Construct since I felt the lowered gravity made them more approachable.
 
- <img src="/img/old_fbl.png" alt="Old Fogbound Lagoon" width="388"/>
+
+![Old Fogbound Lagoon](/img/old_fbl.png)
 
  I also started prototyping the post processing effects for when the player camera went underwater. I originally wanted a hazier, murkier look for the water, but I ultimately decided to go in a different direction because I felt like it made the map too monochrome and it was hard to see. The sea level visibility also needed improvement so players can percieve the water depth above them.
 
-<img src="/img/fbl_water_test.gif" alt="Old Fogbound Lagoon Water" width="388"/>
+
+![Old Fogbound Lagoon Water](/img/fbl_water_test.gif)
 
 Instead of having a murkier look to the water, I made the underwater sections of the map darker and have more contrast. Risk of Rain 2 is a colorful game, but rarely does it lean into dark, bioluminiscent environments. I first started with implementing these red braziers around the map that added much needed composition to the map. I also implemented post processing that bumped the saturation values of reds and yellows underwater. The resulting effect is an interesting dichotomy where above water is very monochromic and gray whilst underwater is very colorful. I felt it effectively conveyed information to the player about the state of their character and strengthened the aesthetic division between the two parts of the map. I also added a more obvious water line and distortion effects so the depth of the water is conveyed better.
 
@@ -60,17 +62,17 @@ With the new art direction and level geometry, I once again started thinking abo
 
 Unfortunately, I did not have the time to create many custom assets for the level, resorting to reusing prexisting assets from the game. I did feel that I had enough to work with to still make something unique. I leaned more into this bioluminescent look underwater, adding twinkling grass that broke up the ground. This was around the time the level really started coming together. 
 
-  <img src="/img/fbl_ominous.png" alt="Ominous" width="388"/>
+![Ominous](/img/fbl_ominous.png)
 
   I started to add boulders and trees around the map to break up the space and provide cover. The first shelf of the map was effectively a flat beach area, it was important to break up the space there especially.
 
   I also heavily relied on the use of the game's prexisting "Triplanar Terrain Blend" shader to decorate the geometry. It was simple to vertex paint my terrain and have certain textures mapped to to each color channel. This did take some time, however, I did not have access to these shaders in the editor so I resorted to trial and error. I wanted the above water sections of the map to be grassier and greener whilst underwater is more covered in lichen.
 
-<img src="/img/fbl_model_screenshot3.png" alt="Model Screenshot 3" width="388"/>
+![Model Screenshot 3](/img/fbl_model_screenshot3.png)
 
 I also needed some landmarks around the map to help distinguish player location more. I eventually got these custom bone assets from [dotflare](https://x.com/dotflare3?lang=en) to put on the bottom most shelf of the level. I think it really serves to the desolated feel of the map whilst also alluding to something bigger swimming in the water.
 
-<img src="/img/texFBLScenePreview.PNG" alt="FBL Old Preview" width="388"/>
+![FBL Old Preview](/img/texFBLScenePreview.PNG)
 
 To enhance the underwater feel, I also muffled all game audio if your camera dipped below the water. I felt it added an extra queue to know when your character was in the water. 
 
@@ -83,6 +85,6 @@ The level was close to finished by October 22nd 2022. All that was left was spri
 
 One core issue people had with the level was the fact that the underwater portions of the map made it hard to see chests and other interactables. Combined with the post-processing, the blue chests blended into the dark blue ground way too often. To address this, I textured the ground a bit better and also discolored it to be more green. The underwater floor now has a more mossy look to it. I also took this opportunity to update some of the kitbashed assets such as the crimson braziers and the bioluminescent grass. It also gave me the excuse to sprinkle in more lightsources around the map. The result was large improvements to readibility overall, whilst still keeping some amount of darkness in the environment.
 
-<img src="/img/texFBLScenePreview2.PNG" alt="FBL Preview" width="388"/>
+![FBL Preview](/img/texFBLScenePreview2.PNG)
 
 I still maintain this mod to this day, making sure it is playable for any release of Risk of Rain 2. I made changes such as adding support for newly added DLC enemies and for Alloyed Collective's access nodes. As of this writing, [Fogbound Lagoon is playable under the current 1.4.1 version of Risk of Rain 2](https://www.youtube.com/watch?v=R79hKENUrOY).

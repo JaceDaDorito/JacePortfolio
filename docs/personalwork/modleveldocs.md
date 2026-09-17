@@ -19,7 +19,8 @@ Some of the main tools I needed were already implemented into <a href="./persona
 
 These tools were eventually compiled into a mod called [Locations of Precipitation](https://thunderstore.io/c/riskofrain2/p/JaceDaDorito/LocationsOfPrecipitation/), a library containing tooling to build Risk of Rain 2 levels. This was a collective effort between myself and a few other developers credited under the mod page. I wrote a big portion of these tools and did extensive testing of the entire library. Since the mods initial conception, it has recieved more additions such as tools to instantiate Jump Pads and the Artifact Dialer from the game's Stage 5 levels. The library has since recieved a collective 1.2 million downloads, supporting several mods such as [Ancient Observatory](https://thunderstore.io/c/riskofrain2/p/wormsworms/Ancient_Observatory/), [Forlorn Wreckage](https://thunderstore.io/c/riskofrain2/p/Winslow/Forlorn_Wreckage/), [SnowtimeStages](https://thunderstore.io/c/riskofrain2/p/winterwonderland/SnowtimeStages/), and [EnemiesReturns](https://thunderstore.io/c/riskofrain2/p/Risky_Sleeps/EnemiesReturns/). Fogbound Lagoon was also migrated to use this library since it provided more stable tools in comparison.
 
-<img src="/img/jumppad_LOP.png" alt="Jump Pad" width="1000"/>
+
+![Jump Pad](/img/jumppad_LOP.png)
 
 ## R2API Stages
 [R2API Stages](https://thunderstore.io/c/riskofrain2/p/RiskofThunder/R2API_Stages/) is a smaller library mod targetted at simplifying the registration of new maps into the existing game progression. For example, I requested Fogbound Lagoon to be registered as a Stage 3, meaning R2API will take my level and insert it into the level collection containing the other Stage 3 levels (Rallypoint Delta, Scorched Acres, etc.). The library also ensures the requested level properly transitions to the next set of levels when players progress (Abyssal Depths, Sundered Grove, etc.).
@@ -27,5 +28,5 @@ These tools were eventually compiled into a mod called [Locations of Precipitati
 ## Documentation
 Once all the tooling was solidified, I kickstarted the creation of the [stage creation documentation](https://risk-of-thunder.github.io/R2Wiki/Mod-Creation/Assets/Stage/) hosted on the Risk of Rain 2 Modding Wiki. The guide assumes that the reader has basic knowledge of Unity, but it does go over registering maps into the game progression and creating the maps themselves. The guide was designed to establish a consistent terminology and provide plenty of visuals. It also briefly goes over the purpose of the afformentioned libraries such as Locations of Precipitation and R2API. I finished the basis of this documentation in November of 2023, and it continued recieving updates and additions from other contributors going into 2024. I firmly believe this documentation threw open the gates for custom levels for Risk of Rain 2, allowing the medium to be as approachable as it is today.
 
-<img src="/img/documentation_snippet_ror2.png" alt="Documentation Snippet" width="1000"/>
+![Documentation Snippet](/img/documentation_snippet_ror2.png)
 
