@@ -17,7 +17,7 @@ const config = {
   tagline: "Seasoned Level Designer & VFX artist",
   favicon: 'img/favicon2.png',
   url: `https://${organizationName}.github.io`,
-  baseUrl: `/${projectName}/`,
+  baseUrl: `/`,
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName, // Usually your GitHub org/user name.
