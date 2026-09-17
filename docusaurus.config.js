@@ -8,17 +8,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const organizationName = "JaceDaDorito";
+const projectName = "JacePortfolio";
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Jason Torres\'s Portfolio',
-  tagline: 'Seasoned Level Designer & VFX artist',
+  tagline: "Seasoned Level Designer & VFX artist",
   favicon: 'img/favicon2.png',
-  url: 'https:///jacedadorito.github.io',
-  baseUrl: '/',
+  url: `https://${organizationName}.github.io`,
+  baseUrl: `/${projectName}/`,
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'JaceDaDorito', // Usually your GitHub org/user name.
-  projectName: 'JacePortfolio', // Usually your repo name.
+  organizationName, // Usually your GitHub org/user name.
+  projectName, // Usually your repo name.
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   trailingSlash: false,
