@@ -14,7 +14,7 @@ const projectName = "JacePortfolio";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Jason Torres\'s Portfolio',
-  tagline: "Seasoned Level Designer & Technical Artist",
+  tagline: "Seasoned Level Designer & VFX artist",
   favicon: 'img/favicon2.png',
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
@@ -44,6 +44,7 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').Options} */
         ({
             docs: {
+                routeBasePath: '/',
                 sidebarPath: require.resolve('./sidebars.js'),
             },
             blog: {
