@@ -13,7 +13,7 @@ const config = {
   title: 'Jason Torres\'s Portfolio',
   tagline: 'Seasoned Level Designer & VFX artist',
   favicon: 'img/favicon2.png',
-  url: 'https://jaceportfolio-site.com',
+  url: 'https:///jacedadorito.github.io',
   baseUrl: '/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -21,6 +21,7 @@ const config = {
   projectName: 'JacePortfolio', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
+  trailingSlash: false,
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
