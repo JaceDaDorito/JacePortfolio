@@ -21,7 +21,7 @@ Fogbound Lagoon was my personal submission to the 2022 [Halloween Modjam](https:
 Since this project is a lot more personal, I want to use this project as an opportunity to explain my design process when creating a level from scratch. I also see it as interesting insight, given I only had just under a month to produce and publish this map.
 
 By this point, I already had a lot of experience with prototyping Risk of Rain 2 levels. I was already familiar with how to import my levels into the game and I was honing my skills on white-boxxing. One of the work-in-progress levels I was creating that predated Fogbound Lagoon was called [Arid Expanse](https://www.youtube.com/watch?v=qIbm7Bc0fi4).
-|![Arid Expanse Blender](/img/arid_expanse_blend.png)|![Arid Expanse In-game](/img/arid_expanse_ingame.PNG)|
+|![Arid Expanse Blender](/img/arid_expanse_blend.png)|![Arid Expanse In-game](/img/arid_expanse_ingame.png)|
 |-|-|
 
 With the announcement of the Halloween Modjam, I had the inspiration to make a spooky map that fit within the world of Risk of Rain 2. The idea initially started as "how would I port the water mechanics from the first Risk of Rain game into the sequel?" At this point, I would've started drawing thumbnails of the level to nail down the locale and feel like these below:
@@ -72,7 +72,7 @@ Unfortunately, I did not have the time to create many custom assets for the leve
 
 I also needed some landmarks around the map to help distinguish player location more. I eventually got these custom bone assets from [dotflare](https://x.com/dotflare3?lang=en) to put on the bottom most shelf of the level. I think it really serves to the desolated feel of the map whilst also alluding to something bigger swimming in the water.
 
-![FBL Old Preview](/img/texFBLScenePreview.PNG)
+![FBL Old Preview](/img/texFBLScenePreview.png)
 
 To enhance the underwater feel, I also muffled all game audio if your camera dipped below the water. I felt it added an extra queue to know when your character was in the water. 
 
@@ -85,6 +85,6 @@ The level was close to finished by October 22nd 2022. All that was left was spri
 
 One core issue people had with the level was the fact that the underwater portions of the map made it hard to see chests and other interactables. Combined with the post-processing, the blue chests blended into the dark blue ground way too often. To address this, I textured the ground a bit better and also discolored it to be more green. The underwater floor now has a more mossy look to it. I also took this opportunity to update some of the kitbashed assets such as the crimson braziers and the bioluminescent grass. It also gave me the excuse to sprinkle in more lightsources around the map. The result was large improvements to readibility overall, whilst still keeping some amount of darkness in the environment.
 
-![FBL Preview](/img/texFBLScenePreview2.PNG)
+![FBL Preview](/img/texFBLScenePreview2.png)
 
 I still maintain this mod to this day, making sure it is playable for any release of Risk of Rain 2. I made changes such as adding support for newly added DLC enemies and for Alloyed Collective's access nodes. As of this writing, [Fogbound Lagoon is playable under the current 1.4.1 version of Risk of Rain 2](https://www.youtube.com/watch?v=R79hKENUrOY).
