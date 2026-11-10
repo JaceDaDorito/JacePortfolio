@@ -13,7 +13,7 @@ If you have a project requiring level design or visual effects work, feel free t
 | Project     | Title | Company | Timeline |
 | ----------- | ----------- | ----------- | ----------- |
 | <a href="./professionalwork/ror2dlc3/">Risk of Rain 2: Alloyed Collective</a>   | Level Designer & Technical Artist | Dream Toaster LLC | 2024 - 2025|
-| Risk of Rain 2: Hallowed Concepts   | More Information Soon | Dream Toaster LLC | - |
+| Risk of Rain 2: Hallowed Concepts   | Level Designer & Technical Artist | Dream Toaster LLC | 2026 |
 
 |![Alloyed Collective Banner](/img/Alloyed_Collective.jpg)|![Hallowed Concepts Banner](/img/Hallowed_Concepts.jpg)|
 |-|-|
